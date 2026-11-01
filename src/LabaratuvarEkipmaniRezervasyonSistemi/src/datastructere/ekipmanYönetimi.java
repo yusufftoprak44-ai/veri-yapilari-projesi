@@ -18,4 +18,20 @@ import java.util.List;
             return ekipmanListesi;                // diğer sınıflara listeyi paylaşmak için oluşturduk
 	}
 }
+/*
+ 
+ burada da kendi bagli listemizi olusturuyoruz
+ 
+ public class ekipmanYönetimi {
+		    private bagliliste ekipmanListesi; 
+	    private bagliliste rezervasyonListesi; //  rezervasyonlar için  bir liste
 
+	    public ekipmanYönetimi() {
+	        this.ekipmanListesi = new bagliliste(); // Kendi bağlı listemiz
+	    }
+	    
+	    public void yeniEkipmanEkle(int ekipmanId) {
+	       
+	        ekipmanListesi.elemanekle(ekipmanId); 
+	    }
+	}*/

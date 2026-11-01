@@ -1,4 +1,4 @@
-package labaratuvarRezervasyonSistemi;
+package model;
 
 public class rezervasyon {
 private String ogrenciNo;
@@ -14,28 +14,28 @@ public rezervasyon(String ogrenciNo,String ekipmanKodu,String gun,String saatDil
 	
 }
 // getter setter metotlar
-public String ogrenciNo() {
-	return ogrenciNo();
+public String getogrenciNo() {
+	return ogrenciNo;
 }
 public void setogreciNo(String ogrenciNo) {
 	this.ogrenciNo=ogrenciNo;
 	
 }
 
-public String ekipmanKodu() {
-	return ekipmanKodu();
+public String getekipmanKodu() {
+	return ekipmanKodu;
 }
 public void setekipmanKodu(String ekipmanKodu) {
 	this.ekipmanKodu=ekipmanKodu;
 }
-	public String gun () {
-		return gun();
+	public String getgun () {
+		return gun;
 	}
 	public void setgun(String gun) {
 		this.gun=gun;
 	}
-	public String saatDilimi () {
-		return saatDilimi();
+	public String getsaatDilimi () {
+		return saatDilimi;
 	}
 	public void setsaatDilimi(String saatDilimi) {
 		this.saatDilimi=saatDilimi;

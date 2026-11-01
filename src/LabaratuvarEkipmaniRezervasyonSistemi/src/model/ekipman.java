@@ -1,4 +1,4 @@
-package labaratuvarRezervasyonSistemi;
+package model;
 
 public class ekipman {
 	private String ekipmanKodu;       // sayi cok buyuk olabiliceginden veya kodda
@@ -16,20 +16,20 @@ public ekipman(String ekipmanKodu,String ekipmanAdi, String ekipmanKategori) {
 }
 // getter ve setter metotlari
 public String ekipmanKodu() {
-	return ekipmanKodu();
+	return ekipmanKodu;
 }
 
 public void setekipmanKodu(String ekipmanKodu) {
 	this.ekipmanKodu=ekipmanKodu;
 }
 public String ekipmanAdi() {
-	return ekipmanAdi();
+	return ekipmanAdi;
 }
 public void setekipmanAdi(String ekipmanAdi) {
 	this.ekipmanAdi=ekipmanAdi;
 }
 public String ekipmanKategori() {
-	return ekipmanKategori();
+	return ekipmanKategori;
 }
 public void setekipmanKategori(String ekipmanKategori) {
 	this.ekipmanKategori=ekipmanKategori;
